@@ -1,0 +1,5 @@
+pdf2html:
+    container_name: docker-pdf2html
+    build: .
+    ports:
+        - "8080:8080"
